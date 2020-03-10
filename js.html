@@ -2,16 +2,34 @@
 <html>
 <head>
 <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
+
 </script>
 </head>
 <body>
 
-<h1>A Web Page</h1>
-<p id="demo">A Paragraph</p>
-<button type="button" onclick="myFunction()">Try it</button>
+    <h2 id="error">Input ellenőrzés</h2>
+    <p>Adj meg egy számot 1 és 10 között</p>
+    <input id="numb">
+    <button type="button" onclick="myFunction()">Rendben</button>
+    <p id="demo"></p>
 
+    <script>
+        function myFunction()
+        {
+            var x, text;
+            x = document.getElementById("numb").value;
+
+            if(isNaN(x) || x < 1 || x > 10)
+            {
+                text = "Nem jó érték!";
+                document.getElementById("error").innerHTML ="HIBA!!!!!"
+            }
+            else{
+                text ="<b>Bemenet rendben!<b>";
+                    document.getElementById("error").innerHTML ="Input ellenőrzés"
+            }   
+            document.getElementById("demo").innerHTML = text;   
+        }
+    </script>
 </body>
 </html>
