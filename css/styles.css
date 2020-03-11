@@ -81,6 +81,7 @@ section article h1{
     font-size: 150%;
     color: rgb(0, 180, 0);
     text-shadow: 2px 2px 2px black;
+    box-shadow: rgba(0, 0, 0, 0.5);
     font-family: "trebuchet MS";
 }
 
@@ -109,6 +110,7 @@ figure figcaption{
     font-size: 100%;
     margin: 6px 0 0 0;
     color: rgb(0, 180, 0);
+    box-shadow: rgba(0, 0, 0, 0.5);
 }
 
 footer{
