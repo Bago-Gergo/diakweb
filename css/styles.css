@@ -95,7 +95,7 @@ section article p{
 
 figure{
     padding: 10px;
-    background: #4f54da;
+    background: rgba(0, 0, 0, 0.5);;
     margin: 0 0 2px 0;
 }
 
