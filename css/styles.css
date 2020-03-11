@@ -72,14 +72,6 @@ aside{
     font-size: 80%;
 }
 
-section article h2{
-    font-style: italic;
-    font-size: 100%;
-    margin: 6px 0 0 0;
-    color: rgb(0, 180, 0);
-    box-shadow: rgba(0, 0, 0, 1);
-}
-
 section article{
     margin: 20px;
 }
