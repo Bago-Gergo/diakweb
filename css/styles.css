@@ -90,6 +90,7 @@ section article p{
     font-size: 85%;
     font-variant-alternates: 85%;
     color:  rgb(0, 180, 0);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 figure{
